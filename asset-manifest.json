@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.c1c9b018.css",
-    "main.js": "/static/js/main.f0cad158.js",
-    "static/media/membershiprules.pdf": "/static/media/membershiprules.a1cc3ff42d4a0f234f9f.pdf",
-    "static/media/armbar.jpeg": "/static/media/armbar.e8bd269a58d40c7a9705.jpeg",
-    "static/media/fight.jpeg": "/static/media/fight.53b456b37be5d60213f0.jpeg",
-    "static/media/walkout.jpeg": "/static/media/walkout.57971dbb725911c370f1.jpeg",
-    "static/media/hype.jpeg": "/static/media/hype.5fa6aec3258f066a2c55.jpeg",
-    "static/media/groundpound2.jpeg": "/static/media/groundpound2.a322a2c6601bc7a088d5.jpeg",
-    "static/media/kick.jpeg": "/static/media/kick.6e744d756fff3aa99d78.jpeg",
-    "static/media/class.jpeg": "/static/media/class.18823a0d1ba0812d74e5.jpeg",
-    "static/media/cagewrestling.jpeg": "/static/media/cagewrestling.0865358df13b52976c8f.jpeg",
-    "static/media/hall.jpeg": "/static/media/hall.a7efefb73ed86a908e81.jpeg",
-    "static/media/logo.jpg": "/static/media/logo.b9f3fecf228eb4ce7854.jpg",
-    "index.html": "/index.html",
-    "main.c1c9b018.css.map": "/static/css/main.c1c9b018.css.map",
-    "main.f0cad158.js.map": "/static/js/main.f0cad158.js.map"
+    "main.css": "/fightgym/static/css/main.fc264622.css",
+    "main.js": "/fightgym/static/js/main.ea7a37f0.js",
+    "static/media/membershiprules.pdf": "/fightgym/static/media/membershiprules.a1cc3ff42d4a0f234f9f.pdf",
+    "static/media/armbar.jpeg": "/fightgym/static/media/armbar.e8bd269a58d40c7a9705.jpeg",
+    "static/media/fight.jpeg": "/fightgym/static/media/fight.53b456b37be5d60213f0.jpeg",
+    "static/media/walkout.jpeg": "/fightgym/static/media/walkout.57971dbb725911c370f1.jpeg",
+    "static/media/hype.jpeg": "/fightgym/static/media/hype.5fa6aec3258f066a2c55.jpeg",
+    "static/media/groundpound2.jpeg": "/fightgym/static/media/groundpound2.a322a2c6601bc7a088d5.jpeg",
+    "static/media/kick.jpeg": "/fightgym/static/media/kick.6e744d756fff3aa99d78.jpeg",
+    "static/media/class.jpeg": "/fightgym/static/media/class.18823a0d1ba0812d74e5.jpeg",
+    "static/media/cagewrestling.jpeg": "/fightgym/static/media/cagewrestling.0865358df13b52976c8f.jpeg",
+    "static/media/hall.jpeg": "/fightgym/static/media/hall.a7efefb73ed86a908e81.jpeg",
+    "static/media/logo.jpg": "/fightgym/static/media/logo.b9f3fecf228eb4ce7854.jpg",
+    "index.html": "/fightgym/index.html",
+    "main.fc264622.css.map": "/fightgym/static/css/main.fc264622.css.map",
+    "main.ea7a37f0.js.map": "/fightgym/static/js/main.ea7a37f0.js.map"
   },
   "entrypoints": [
-    "static/css/main.c1c9b018.css",
-    "static/js/main.f0cad158.js"
+    "static/css/main.fc264622.css",
+    "static/js/main.ea7a37f0.js"
   ]
 }
