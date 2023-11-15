@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/fightgym/static/css/main.6ee90c6c.css",
-    "main.js": "/fightgym/static/js/main.ea7a37f0.js",
+    "main.js": "/fightgym/static/js/main.98870032.js",
     "static/media/membershiprules.pdf": "/fightgym/static/media/membershiprules.a1cc3ff42d4a0f234f9f.pdf",
     "static/media/armbar.jpeg": "/fightgym/static/media/armbar.e8bd269a58d40c7a9705.jpeg",
     "static/media/fight.jpeg": "/fightgym/static/media/fight.53b456b37be5d60213f0.jpeg",
@@ -15,10 +15,10 @@
     "static/media/logo.jpg": "/fightgym/static/media/logo.b9f3fecf228eb4ce7854.jpg",
     "index.html": "/fightgym/index.html",
     "main.6ee90c6c.css.map": "/fightgym/static/css/main.6ee90c6c.css.map",
-    "main.ea7a37f0.js.map": "/fightgym/static/js/main.ea7a37f0.js.map"
+    "main.98870032.js.map": "/fightgym/static/js/main.98870032.js.map"
   },
   "entrypoints": [
     "static/css/main.6ee90c6c.css",
-    "static/js/main.ea7a37f0.js"
+    "static/js/main.98870032.js"
   ]
 }
