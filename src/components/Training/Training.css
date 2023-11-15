@@ -1,0 +1,59 @@
+.training-wrapper {
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 40px;
+}
+
+.training-wrapper h2 {
+    font-size: 0.7em;
+}
+
+.training-wrapper i {
+    font-size: 0.8em;
+}
+
+.training-wrapper img {
+    float: none;
+    width: 40%;
+    margin-top: 20px;
+    filter: grayscale(1);
+}
+
+.training-info-list {
+    display: list-item;
+    padding-bottom: 160px;
+}
+
+.list-header {
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.list-text {
+    margin-top: 0!important;
+}
+
+
+.block {
+    margin-top: 40px;
+}
+
+.block ul {
+    margin-top: 10px;
+}
+
+.block p {
+    margin-top: 10px;
+}
+
+@media (max-width: 1775px) {
+    .training-wrapper {
+        width: 98%;
+        margin-left: 1%;
+    }
+
+    .training-wrapper p {
+        width: 100%;
+        font-size: 0.7em;
+    }
+}

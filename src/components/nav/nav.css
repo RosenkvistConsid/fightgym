@@ -1,0 +1,143 @@
+.nav {
+    height: 200px;
+}
+
+#menu-wrapper {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    height: 200px;
+    width: 99vw;
+}
+
+.dropdown-container {
+    position: relative;
+    display: inline-block;
+    z-index: 100;
+}
+
+.dropdown {
+    cursor: pointer;
+    user-select: none;
+}
+
+.dropdown-list {
+    display: none;
+    position: absolute;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #110416;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 10em;
+}
+
+.dropdown-container:hover .dropdown-list {
+    display: block;
+}
+
+.dropdown-list li {
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    font-size: 0.7em;
+    margin-right: 0;
+    user-select: none;
+}
+
+.dropdown-list li:hover {
+    font-weight: bold;
+}
+
+.dropdown-list li:last-child {
+    border-bottom: none;
+}
+
+ul {
+    list-style: none;
+    display: inline-flex;
+    margin-top: 60px;
+}
+
+li {
+    margin-right: 5em;
+    cursor: pointer;
+}
+
+img {
+    aspect-ratio: auto 372 / 264;
+    display: inline-block;
+    vertical-align: middle;
+    width: 7.5em;
+    float: left;
+}
+
+.hamburger-icon {
+    display: none;
+    cursor: pointer;
+    position: absolute;
+    color: #FFF;
+    top: 10px;
+    right: 10px;
+    z-index: 101;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+@media (max-width: 1775px) {
+
+    .nav {
+        height: auto;
+        position: fixed;
+        text-align: right;
+        top: 0;
+        width: 100vw;
+    }
+    
+    #menu-wrapper {
+        z-index: 100;
+        height: 100%;
+        text-align: right;
+    }
+    .nav img {
+        display: none;
+    }
+
+    .hamburger-icon {
+        display: block;
+    }
+
+    .show {
+        margin-top: 10px;
+        border-bottom: 1px solid #FFF;
+        width: 240px!important;
+        position: relative!important;
+        float: right;
+    }
+
+    #menu-wrapper ul {
+        display: none;
+        flex-direction: column;
+        background-color: #110416;
+        position: absolute;
+        width: 100%;
+        top: 60px;
+        left: 0;
+        z-index: 100;
+    }
+
+    #menu-wrapper ul.show {
+        display: flex;
+    }
+
+    #menu-wrapper li {
+        margin-right: 20px;
+    }
+}

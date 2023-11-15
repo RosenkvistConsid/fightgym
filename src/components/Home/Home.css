@@ -1,0 +1,70 @@
+.Home {
+    padding-bottom: 160px;
+}
+
+h1 {
+    font-size: 1em;
+    margin-left: 0!important;
+}
+
+h2 {
+    font-size: 0.8em;
+}
+
+h3 {
+    font-size: 0.6em;
+}
+
+h4 {
+    font-size: 0.6em;
+}
+
+p {
+    font-size: 0.5em;
+    margin-top: 20px;
+}
+
+section {
+    max-width: 40%;
+    margin-top: 50px;
+    margin-left: 30%;
+    display: block;
+}
+
+.article {
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+#first {
+    margin-top: 60px;
+    padding-bottom: 60px;
+    filter: grayscale(1);
+    display: block;
+    width: 100%;
+}
+
+#first-image {
+    background-image: url('../../media/hall.jpeg');
+    min-width: 120px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-flow: column;
+    height: 640px;
+    filter: grayscale(1);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 1775px) {
+    section {
+        max-width: 98%!important;
+        margin-left: 1%;
+    }
+
+    section p {
+        width: 100%;
+        font-size: 0.7em;
+    }
+}

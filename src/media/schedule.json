@@ -1,0 +1,122 @@
+[
+    {
+        "day": "Måndag",
+        "classes": [
+            {
+                "title": "MMA",
+                "description": "Nybörjare",
+                "time": "17:00 - 18:10"
+            },
+            {
+                "title": "Brottning",
+                "description": "Fortsättare avancerad",
+                "time": "18:10"
+            }
+        ]
+    },
+    {
+        "day": "Tisdag",
+        "classes": [
+            {
+                "title": "Kickboxning",
+                "description": "Nybörjare fortsättare",
+                "time": "16:50 - 18:00"
+            },
+            {
+                "title": "MMA",
+                "description": "Fortsättare avancerad",
+                "time": "18:05 - 19:15"
+            },
+            {
+                "title": "MMA Team",
+                "description": "",
+                "time": "19:20"
+            }
+        ]
+    },
+    {
+        "day": "Onsdag",
+        "classes": [
+            {
+                "title": "Grappling",
+                "description": "Nybörjare",
+                "time": "16:50 - 18:00"
+            },
+            {
+                "title": "Grappling",
+                "description": "Fortsättare avancerad, Sal A",
+                "time": "18:05 - 19:20"
+            },
+            {
+                "title": "MMA Team",
+                "description": "Sal B",
+                "time": "18:05 - 19:20"
+            }
+        ]
+    },
+    {
+        "day": "Torsdag",
+        "classes": [
+            {
+                "title": "MMA",
+                "description": "Nybörjare",
+                "time": "16:50 - 18:00"
+            },
+            {
+                "title": "MMA",
+                "description": "Fortsättare avancerad",
+                "time": "18:05 - 19:15"
+            },
+            {
+                "title": "MMA Team",
+                "description": "",
+                "time": "19:20"
+            }
+        ]
+    },
+    {
+        "day": "Fredag",
+        "classes": [
+            {
+                "title": "Boxning",
+                "description": "Fortsättare avancerad",
+                "time": "16:30 - 17:30"
+            }, 
+            {
+                "title": "MMA Team",
+                "description": "",
+                "time": "17:30 - 19:00"
+            }
+        ]
+    },
+    {
+        "day": "Lördag",
+        "classes": [
+            {
+                "title": "Open mat",
+                "description": "Endast medlemmar, sal A & B",
+                "time": "11:00 - 13:00"
+            }
+        ]
+    },
+    {
+        "day": "Söndag",
+        "classes": [
+            {
+                "title": "Grappling/MMA",
+                "description": "Alla nivåer",
+                "time": "14:00 - 15:20"
+            },
+            {
+                "title": "Kickboxning",
+                "description": "Alla nivåer",
+                "time": "15:30 - 16:40"
+            },
+            {
+                "title": "MMA Team",
+                "description": "",
+                "time": "17:00"
+            }
+        ]
+    }
+]
