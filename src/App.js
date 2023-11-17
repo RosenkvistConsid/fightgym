@@ -18,6 +18,7 @@ function App() {
           <Route path='/about' element={<About />} />
           <Route path='/training' element={<Training />} />
           <Route path='/schedule' element={<Schedule />} />
+          <Route path="/fightgym/" element={<Home />}/>
           <Route path="/" element={<Home />} />
         </Routes>
       <Footer className="footer" />

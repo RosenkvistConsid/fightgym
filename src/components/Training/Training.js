@@ -13,7 +13,7 @@ const Training = () => (
       Vi tar endast emot föranmälda utövare och inga drop in pass,<br/>
       har man frågor vänligen kontakta oss via mail eller sociala medier.
     </p>
-    <img src={walkout}></img>
+    <img src={walkout} alt='tre personer går ut mot en fight arena'></img>
     <div className='block'>
       <h3>FÖRANMÄLAN & REGISTRERING</h3>
       <p>
@@ -81,7 +81,7 @@ const Training = () => (
           </p>
         </li>
         <li>
-          <img src={hype}></img>
+          <img src={hype} alt='fighter som uppmuntrar publiken'></img>
           <h4 className='list-header'>Utrustning, detta behöver du för att träna</h4>
           <p className='list-text'><i>Vi säljer utrustning på plats från bla NORDIC FIGHTER & Earnitsports</i></p>
         </li>

@@ -30,7 +30,7 @@ const Groups = (props) => {
           Variationsrik och allsidig träning för dig som inte har någon tidigare erfarenhet av MMA och/eller för dig som tränat 1 termin och vill ha mer grunder. <br/>
           Striking, brottning och grappling. Vårt upplägg för MMA kräver att du tränar både striking-passen och grappling-passen utöver MMA passen, då dessa lägger en grund tillsammans.
         </p>
-        <img src={armbar} className='group-image'></img>
+        <img src={armbar} alt='woman smiling while submitting an opponent with an armbar' className='group-image'></img>
         <h3>TRÄNINGSTIDER-NYBÖRJARE MMA</h3>
         <p>
           Måndag 17.00-18.10 MMA <br/>
@@ -69,7 +69,7 @@ const Groups = (props) => {
           Behärska samtliga distanser är krav. <br/>
           Tränare avgör vid vilken termin man flyttas från nybörjare upp till denna grupp. Full utrustning krävs i denna grupp.
         </p>
-        <img src={advanced} className='group-image'></img>
+        <img src={advanced} alt='two fighters figting' className='group-image'></img>
         <h3>TRÄNINGSTIDER</h3>
         <p>
           Måndag 18.10 Brottning <br/>
@@ -90,7 +90,7 @@ const Groups = (props) => {
           C, B & A-KLASS, samt Professionella fighters.<br/>
           Vår huvudcoach i MMA avgör vilka som tränar i denna grupp.
         </p>
-        <img src={groundpound} className='group-image'></img>
+        <img src={groundpound} alt='one fighter hitting anouther on the ground' className='group-image'></img>
       </div>
 
       <div className='group-wrapper' id='Kickboxning'>
@@ -104,7 +104,7 @@ const Groups = (props) => {
           Sparring förekommer för de som vill. Passar samtliga nivåer oavsett nybörjare, motionär eller fortsättare. Ingen förkunskap krävs.<br/>
           Kickboxning & Boxningspassen är en del av vårat striking program. Passar de som är inriktade på MMA eller de som enbart vill träna striking.
         </p>
-        <img src={striking} className='group-image'></img>
+        <img src={striking} alt='class teaching striking' className='group-image'></img>
         <h3>TRÄNINGSTIDER</h3>
         <p>
           Kickboxning - alla nivåer<br/>
@@ -125,7 +125,7 @@ const Groups = (props) => {
           Genom olika grepptekniker kan kast, strypningar och olika ledlås utföras. Brasiliansk jiu-jitsu och submission wrestling tillhör grapplinggenren.<br/>
           Ett pass även för de som tränar MMA, då grappling är en del i MMA.
         </p>
-        <img src={grappling} className='group-image'></img>
+        <img src={grappling} alt='a fighter perfoming a take down' className='group-image'></img>
         <h3>Tider - nybörjare</h3>
         <p>
           Onsdag 16.50-18.00<br/>
