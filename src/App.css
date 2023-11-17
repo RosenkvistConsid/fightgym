@@ -23,7 +23,7 @@ a {
   text-decoration: none;
 }
 
-@media (max-width: 1430px) {
+@media (max-width: 1200px) {
   img {
     width: 80%!important;
   }

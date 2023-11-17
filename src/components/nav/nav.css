@@ -91,7 +91,7 @@ img {
     transition: 0.4s;
 }
 
-@media (max-width: 1430px) {
+@media (max-width: 1200px) {
 
     .nav {
         height: auto;
