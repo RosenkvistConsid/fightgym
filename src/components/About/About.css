@@ -12,8 +12,9 @@
 
 .about-wrapper img {
     float: none;
-    width: 30%;
     margin-top: 20px;
+    height: 400px;
+    width: auto;
     filter: grayscale(1);
 }
 
