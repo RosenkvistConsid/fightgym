@@ -55,6 +55,7 @@ section {
     filter: grayscale(1);
     margin-top: 20px;
     margin-bottom: 20px;
+    position: relative;
 }
 
 @media (max-width: 1200px) {

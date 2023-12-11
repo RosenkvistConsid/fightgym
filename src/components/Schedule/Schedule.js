@@ -1,27 +1,35 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Schedule.css';
 import schedule from '../../media/schedule.json';
 
 const Schedule = () => {
-  console.log(schedule);
+  const [openSchedules, setOpenSchedules] = useState(schedule.map(() => true));
 
-  const renderClass = (classDetails) => {
-    return (
-      <ul key={classDetails.id}>
-        <li className='title'>{classDetails.title}</li>
-        <li className='description'>{classDetails.description}</li>
-        <li className='time'>{classDetails.time}</li>
-      </ul>
-    );
+  const toggleSchedule = (index) => {
+    setOpenSchedules((prevSchedules) => {
+      const newSchedules = [...prevSchedules];
+      newSchedules[index] = !newSchedules[index];
+      return newSchedules;
+    });
   };
+
+  const renderClass = (classDetails) => (
+    <ul key={classDetails.id}>
+      <li className='title'>{classDetails.title}</li>
+      <li className='description'>{classDetails.description}</li>
+      <li className='time'>{classDetails.time}</li>
+    </ul>
+  );
 
   return (
     <div className="schedule-wrapper">
       <h1>Schema</h1>
       {schedule.map((daySchedule, index) => (
         <div key={index} className='schedule-day'>
-          <h2>{daySchedule.day}</h2>
-          {daySchedule.classes.map((classDetails) => renderClass(classDetails))}
+          <h2 onClick={() => toggleSchedule(index)}>
+            {daySchedule.day}
+          </h2>
+          {openSchedules[index] && daySchedule.classes.map((classDetails) => renderClass(classDetails))}
         </div>
       ))}
       <p>
@@ -32,6 +40,6 @@ const Schedule = () => {
       </p>
     </div>
   );
-}
+};
 
 export default Schedule;

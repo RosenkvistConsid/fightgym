@@ -2,6 +2,10 @@
     height: 200px;
 }
 
+.hidden {
+    display: none!important;
+}
+
 #menu-wrapper {
     text-align: center;
     padding: 0;
@@ -90,22 +94,22 @@ img {
     margin: 6px 0;
     transition: 0.4s;
 }
-
 @media (max-width: 1200px) {
-
     .nav {
         height: auto;
         position: fixed;
         text-align: right;
         top: 0;
         width: 100vw;
-    }
-    
-    #menu-wrapper {
         z-index: 100;
+    }
+
+    #menu-wrapper {
+        z-index: 101;
         height: 100%;
         text-align: right;
     }
+
     .nav img {
         display: none;
     }

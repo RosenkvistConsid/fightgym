@@ -12,6 +12,7 @@ const Nav = () => {
 
     const closeMenu = () => {
       setShowMenu(false);
+      
     }
 
     return (
@@ -28,21 +29,21 @@ const Nav = () => {
                 <ul className={showMenu ? 'show' : ''}>
                     <li>
                         <div className="dropdown-container">
-                            <span className='dropdown'> <Link to="/groups/top">Vi erbjuder</Link></span>
-                            <ul className="dropdown-list">
-                                <li onClick={closeMenu}><Link to="/groups/MMA-nyborjare"> MMA nybörjare</Link></li>
-                                <li onClick={closeMenu}><Link to="/groups/MMA-ungdom-nyborjare"> MMA ungdom nybörjare</Link></li>
-                                <li onClick={closeMenu}><Link to="/groups/MMA-fortsattare"> MMA fortsättare</Link></li>
-                                <li onClick={closeMenu}><Link to="/groups/MMA-team"> MMA team</Link></li>
-                                <li onClick={closeMenu}><Link to="/groups/Kickboxning"> Kickboxning</Link></li>
-                                <li onClick={closeMenu}><Link to="/groups/Grappling"> Grappling</Link></li>
-                                <li onClick={closeMenu}><Link to="/groups/Event"> Event</Link></li>
+                            <span className='dropdown'> <Link to="/groups/top" onClick={toggleMenu}>Vi erbjuder</Link></span>
+                            <ul className={`dropdown-list ${showMenu ? '' : 'hidden'} dropdownlist`}>
+                                <li><Link to="/groups/MMA-nyborjare" onClick={closeMenu}> MMA nybörjare</Link></li>
+                                <li><Link to="/groups/MMA-ungdom-nyborjare" onClick={closeMenu}> MMA ungdom nybörjare</Link></li>
+                                <li><Link to="/groups/MMA-fortsattare" onClick={closeMenu}> MMA fortsättare</Link></li>
+                                <li><Link to="/groups/MMA-team" onClick={closeMenu}> MMA team</Link></li>
+                                <li><Link to="/groups/Kickboxning" onClick={closeMenu}> Kickboxning</Link></li>
+                                <li><Link to="/groups/Grappling" onClick={closeMenu}> Grappling</Link></li>
+                                <li><Link to="/groups/Event" onClick={closeMenu}> Event</Link></li>
                             </ul>
                         </div>
                     </li>
-                    <li><Link to="/training">Träning</Link> </li>
-                    <li><Link to="/about">Om oss</Link></li>
-                    <li><Link to="/schedule">Schema</Link></li>
+                    <li onClick={closeMenu}><Link to="/training">Träning</Link> </li>
+                    <li onClick={closeMenu}><Link to="/about">Om oss</Link></li>
+                    <li onClick={closeMenu}><Link to="/schedule">Schema</Link></li>
                 </ul>
             </div>
         </div>
